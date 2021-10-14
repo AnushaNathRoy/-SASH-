@@ -1,6 +1,5 @@
 # README.md
 
-**OS Assignment-3 Anusha Nath Roy (2020101124)**
 
 ---
 
