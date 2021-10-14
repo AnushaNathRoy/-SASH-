@@ -1,0 +1,19 @@
+cd
+ls
+jobs
+sleep 200 
+sleep 2000
+jobs
+fg
+bg
+jobs
+sleep 6000 &
+jobs
+m
+ls -la
+jobs
+sleep 5000 &
+jobs
+jobs
+ls
+ls -la
