@@ -13,6 +13,8 @@
 
 ---
 
+<img width="100%" alt="Screenshot 2021-11-21 at 8 51 52 AM" src="https://user-images.githubusercontent.com/71231079/142750045-3e65c510-d137-4efb-b737-469c37f35e9b.png">
+
 Download the sash shell file and cd into the directory
 
 Run the command:
@@ -23,6 +25,19 @@ make -f makefile;
 ```
 
 Now your sash is ready to go! The commands available at your tips and their execution examples is given below.
+
+# CLI:
+---
+
+An interactive visually pleasing CLI which supports built-in commands, directory management, piping, process handling(background and foreground) as well as input-output redirection.
+
+<img width="100%" alt="Screenshot 2021-11-21 at 8 53 54 AM" src="https://user-images.githubusercontent.com/71231079/142750086-37886aa1-f0b1-4a3f-a7c2-6b3f738cf6de.png">
+
+
+<img width="100%" alt="Screenshot 2021-11-21 at 8 56 28 AM" src="https://user-images.githubusercontent.com/71231079/142750142-bf7d6f83-7631-4817-a67d-ab5bcdd19957.png">
+
+<img width="100%" alt="Screenshot 2021-11-21 at 8 56 40 AM" src="https://user-images.githubusercontent.com/71231079/142750144-718ea8fa-fea7-42c5-a1fb-007c9ed7a5c9.png">
+
 
 # Commands and Sample Execution :
 
@@ -239,6 +254,7 @@ Now your sash is ready to go! The commands available at your tips and their exec
 ## void execute_command(char **args, int argno):
 
 This takes in the command-line arguments and the number of arguments as input. This figures out which function to call and what command to run depending upon the command line arguments.
+
 
 ## int parse_arguments(char *arg):
 
