@@ -1,17 +1,17 @@
 # README.md
 
 
----
+
 
 # < SASH />
 
 ## ~$> Welcome to your new and optimised shell sash!  —
 
----
+
 
 # Getting Started:
 
----
+
 
 <img width="100%" alt="Screenshot 2021-11-21 at 8 51 52 AM" src="https://user-images.githubusercontent.com/71231079/142750045-3e65c510-d137-4efb-b737-469c37f35e9b.png">
 
@@ -27,7 +27,7 @@ make -f makefile;
 Now your sash is ready to go! The commands available at your tips and their execution examples is given below.
 
 # CLI:
----
+
 
 An interactive visually pleasing CLI which supports built-in commands, directory management, piping, process handling(background and foreground) as well as input-output redirection.
 
@@ -41,7 +41,7 @@ An interactive visually pleasing CLI which supports built-in commands, directory
 
 # Commands and Sample Execution :
 
----
+
 
 **Input command types supported:**
 
@@ -226,7 +226,6 @@ An interactive visually pleasing CLI which supports built-in commands, directory
 
 # Working and Contents:
 
----
 
 **The assignment contains the following files:**
 
@@ -247,7 +246,6 @@ An interactive visually pleasing CLI which supports built-in commands, directory
 - signals.c
 - signals.h
 
----
 
 ## execute_command.c
 
@@ -395,8 +393,6 @@ This executes the function on pressing ^c. It stops the current foreground proce
 
 This executes the function on pressing ^d. It exits the shell.
 
----
-
 ## main.c
 
 Steps:
@@ -411,4 +407,4 @@ Steps:
 - if execute_others() is called it figures out whether it is foreground or background and does appropriate function.
 - Also includes signal(SIGCHLD, completed_background) which reports when a background process ends and its status.
 
----
+
